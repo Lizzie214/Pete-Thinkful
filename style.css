@@ -20,13 +20,13 @@ h2{text-align: center;}
 h3{text-align: center;}
 h4{text-align: center;}
 h5{text-align: center;}
-footer{text-align: center;}
-ol{text-align:center ;}
 
-.contact { 
-  display:flex;  
-  justify-content:center ;
-}
+footer{text-align: center;}
+
+
+.contact { display : flex,
+flex-direction : column,
+align-item : center }
 
 .image-circle 
 {border-color: #003049;
@@ -61,6 +61,7 @@ h4 {font-family: "Playfair Display", Times, serif;
 h5 {font-family: "Playfair Display", Times, serif;
       font-size: 10px;
       font-color: #003049;}
+
 
 p {font-family: "Playfair Display", Times, serif;
   font-size: 10px;
