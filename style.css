@@ -6,11 +6,11 @@ font-size: 20px;
 }
 a:link    { color: #d62828;  
 font-family: "Playfair Display", Times, serif;
-font-size: 10px;
+font-size: 18px;
 }
 body { background-color: #eae2b7; }
 
-a:hover   { color:#f77f00; }
+a:hover { color:#f77f00; }
 img {width: 300px;
 }
 
@@ -19,7 +19,6 @@ nav{text-align: center;}
 h2{text-align: center;}
 h3{text-align: center;}
 h4{text-align: center;}
-h5{text-align: center;}
 
 footer{text-align: center;}
 
@@ -36,48 +35,46 @@ border-radius: 50%;
 display: block;
 text-align: center;
 }
-body {color: #000000;
-font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
-padding: 40px;
-           }
+
 /* Set the font family for any h1, h2, or h3 heading */
 h1, {font-family: "Playfair Display", Times, san serif;
-font-size: 48px;
+font-size: 54px;
 font-color: #003049;}
 
 h2,{font-family: "Playfair Display", Times, serif;
-   font-size: 20px;
+   font-size: 48px;
    font-color: #003049;
    }
+
 h3 {font-family: "Playfair Display", Times, serif;
-  font-size: 16px;
+  font-size: 30px;
   font-color: #003049;
 }
 
 h4 {font-family: "Playfair Display", Times, serif;
-  font-size: 12px;
+  font-size: 24px;
   font-color: #003049; }
-
-h5 {font-family: "Playfair Display", Times, serif;
-      font-size: 10px;
-      font-color: #003049;}
 
 
 p {font-family: "Playfair Display", Times, serif;
-  font-size: 10px;
-  font-color: #003049}
+  font-size: 18px;
+  font-color: #003049;
+   vertical-align: baseline;
+  
+}
 
 li {font-family: "Playfair Display", Times, serif;
-  font-size: 10px;
+  font-size: 18px;
   font-color: #003049}
 
 article {
 font-family: "Playfair Display", Times, serif;
-font-size: 10px;
-font-color: #003049}
+font-color: #003049;}
+
 article div {
 text-align: center;
 width: 100%;
+
 }
 
 p {line-height: 1.5;
@@ -100,4 +97,5 @@ margin-right: auto;}
 
 hr {
 border: 1px solid black;
+  width: 35%;}
 /* Add your solution below */
