@@ -59,8 +59,7 @@ h4 {font-family: "Playfair Display", Times, serif;
 p {font-family: "Playfair Display", Times, serif;
   font-size: 18px;
   font-color: #003049;
-   vertical-align: baseline;
-  
+
 }
 
 li {font-family: "Playfair Display", Times, serif;
@@ -97,5 +96,5 @@ margin-right: auto;}
 
 hr {
 border: 1px solid black;
-  width: 35%;}
+  width: 30%;}
 /* Add your solution below */
