@@ -9,33 +9,29 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
   <link href="style.css" rel="stylesheet" type="text/css">
 </head>
-  
+
 <body> 
   <header>  
 
-    <!-- TODO: Add header here -->
-
-  <h1>Pete Thinkful | Artist </h1>
-  </header> 
-  <nav>
+  <h1>Pete Thinkful | Artist 
   <a href="#about">About</a>
   <a href="#porfolio">Porfolio</a>
-  <a href="#contact">Contact</a>
-  </nav>
+  <a href="#contact">Contact</a> </h1>
+  </header>
 
-
-
-      <section> 
+  <section> 
   <h2> About</h2>
-  
-  <h3> Hi! I'm Pete Thinkful</h3>
+  <img
+  class="image-circle"
+  src="images/pete-thinkful.png"
+  alt="Pete Thinkful"/>
+    <p>"Hi! I'm Pete Thinkful"</p>
+          </div>
+
   <a href="#abou"></a> 
   <a href="#about"></a>
       </section>
-  <img class="image-circle" src="images/pete-thinkful.png" alt="Pete Thinkful"> 
-        <!-- TODO: Add About section here -->
 
-  
   <div>
     <section> 
   <p> I'm an artist living in Denver, Colorado. As an artist, I'm interested in: </p>  
@@ -55,35 +51,40 @@
     </section>
   </div>
 
-
   <hr>
-
+<style>
+  .column {
+      float: left;
+      width: 30%;
+      height: 30%;
+  }
+</style>
   <section> 
-    
+
   <div class="porfolio" id="porfolio"> </div>
   <h2>&nbsp; Portfolio </h2>
-  <h4> Abstract Red </h4>
-        <!-- TODO: Add Portfolio section here --><div>
-  <img src="images/abstract-red.png" alt="Abstract Red">
-          <p> Vaporware wayfarers heirloom neutra disrupt. Activated charcoal waistcoat scenester hell of.</p> 
-  </div>
-  <h4> Spiral Zany</h4>
-  <div>
-  <img src="images/spiral-zany.png" alt="Spiral Zany">
-  <p> &nbsp; Sriracha portland taxidermy cronut messenger bag, 
-    vegan distillery.Vaporware kickstarter air plant mumblecore food truck.</p>
-</div>
-<h4>Melted Rainbow </h4>
-<div>
-<img src="images/melted-rainbow.png" alt="Melted Rainbow">
-<p> &nbsp;Edison bulb single-origin coffee snackwave, actually ennuilocavore shabby chic forage.</p>
-  </div>
+
+    <div class="image-row">
+      <div class="image-container">
+          <h4>Abstract Red</h4>
+          <img src="images/abstract-red.png" alt="Abstract Red" alt="Image 1">
+      <p>Vaporware wayfarers heirloom neutra disrupt. Activated charcoal waistcoat scenester hell of.</p>
+   </div>
+   <div class="image-container">
+    <h4>Spiral Zany</h4>
+   <img src="images/spiral-zany.png" alt="Image 2">
+
+      <p> Sriracha portland taxidermy cronut messenger bag,vegan distillery.Vaporware kickstarter air plant mumblecore food truck.</p>
+     </div>
+   <div class="image-container">
+    <h4>Melted Rainbow</h4>
+   <img src="images/melted-rainbow.png" alt="Image 3">
+     <p>Edison bulb single-origin coffee snackwave, actually ennuilocavore shabby chic forage.</p>
+ </div>
+
   </section>
 
-    
   <hr>
-
-        <!-- TODO: Add Contact section here -->
 
   <h3> Contact</h3> 
 
@@ -95,12 +96,13 @@
   <li><a href="#contact">Pinterest</a></li>
   </ol>
   </div>
-    <!-- Footer section -->
+
   <footer>
   <p>© Pete Thinkful. All rights reserved.</p>
 
   </footer>
 
 </body>
-  </html> 
+  </html>
+  }
   
