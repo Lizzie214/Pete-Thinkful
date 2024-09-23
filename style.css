@@ -1,109 +1,158 @@
-a {font-family: Arial, sans-serif;
+a { 
+  font-family: Arial, sans-serif;
   font-size: 20px;
-  }
-  a:link    { color: #d62828;  
-  font-family: "Playfair Display", Times, serif;
-  font-size: 18px;
-  }
-  body { background-color: #eae2b7; }
+}
 
-  a:hover { color:#f77f00; }
-  img {width: 300px;
+a:link { 
+  color: #d62828;  
+  font-family: "Playfair Display", Times, San-serif;
+  font-size: 14px;
+}
+
+header {
+  background-color: #eae2b7; 
+  padding: 50px;
+}
+
+.header-container {
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  max-width: 1000px; 
+  margin: 0 auto; 
+  padding: 20px;
+ 
+}
+
+.logo {
+  font-family: "Playfair Display", Times, San-serif;
+  font-size: 32px;
+  color: #133e5c;
+}
+
+.nav-links a {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  margin-left: 20px; 
+  text-decoration: underline; 
+  color: #003049;
+}
+
+.nav-links a {
+  color: #d62828;
+}
+body { 
+  background-color: #eae2b7; 
+}
+
+a:hover { 
+  color:#f77f00; 
+}
+
+img {
+  width: 50px;
   }
-  h1{text-align: center;}
-  nav{text-align: center;}
-  h2{text-align: center;}
-  h3{text-align:center;}
-  h4{text-align: rigth;}
-  footer{text-align: center;}
 
-  .contact { display : flex,
-  flex-direction : column,
-  align-item : center }
+h1, h2, h3, h4, nav, footer {
+  text-align: center;
+}
 
-  .image-circle 
-  {border-color: black;
+h4 { 
+  text-align: right; 
+}
+
+.contact { 
+  display: flex;center
+  flex-direction: column;
+  align-items: center; 
+}
+
+.image-circle {
+  border-color: black;
   border-width: 2px;
   border-style: solid;
   border-radius: 50%; 
-  margin-left:3px;
-  }
+  margin-center: 30px;
+}
 
-  h1, {font-family: "Playfair Display", Times, san serif;
-  font-size: 48px;
-  font-color: #133e5c;}
+.hi-section {
+  display: flex;
+  justify-content: right; 
+  align-items: center; 
+  gap: 20px; 
+}
 
-  h2,{font-family: "Playfair Display", Times, serif;
-     font-size: 30px;
-     font-color: #133e5c;
-     }
+.image-circle {
+  border-radius: 50%;
+  width: 150px; 
+}
 
-  h3 {font-family: "Playfair Display", Times, serif;
-    font-size: 25px;
-    font-color: #133e5c;
-  }
+.about-content {
+  max-width: 600px; 
+}
 
-  h4 {font-family: "Playfair Display", Times, serif;
-    font-size: 20px;
-    font-color: #003049; }
+h1, h2, h3, h4, p, li, article {
+  font-family: "Playfair Display", Times, Sans-serif;
+  color: #003049; 
+}
 
-  p {font-family: "Playfair Display", Times, serif;
-    font-size: 16px;
-    font-color: #003049;
-  }
+h1 {
+  font-size: 38px;
+}
 
-  li {font-family: "Playfair Display", Times, serif;
-    font-size: 18px;
-    font-color: #003049}
-  article {
-  font-family: "Playfair Display", Times, serif;
-  font-color: #003049;}
+h2 {
+  font-size: 30px;
+}
 
-  article div {
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+
+li {
+  font-size: 14px;
+}
+
+article div {
   text-align: center;
-  width: 100%;
+  width: 75%;
+}
 
-  }
-
-  p {line-height: 1.5;
-  }
-
-  /* The div container constrains the content width within the main container to 600px */
-  div {
+div {
   margin: auto;
   width: 600px;
-  }
+}
 
-  img {
-  width: 100%;
-  max-width: 200px;
-  height: auto;
-  aligh: center;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;}
+ hr {
+   border: 1px solid black;
+   width: 100%;
+ }
 
-  hr {
-  border: 1px solid black;
-  width: 25%;}
+.image-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  gap: 3%;
+}
 
-  .image-row {
-    display: flex;
-    justify-content: space-between; 
+.image-container {
+  text-align: center;
+  width: 50%;
+}
 
-    }
-
-    align-items:center ; /* Align items to the top */
-
-    gap: 10%; /* Optional: Adds spacing between the image containers */
-  }
-
-  .image-container {
-    text-align: center; /* Center title, image, and description */
-
-    width: 95%; /* Each image container takes up 30% of the row */
-  }
-
-  .image-container img {
-    width: 95%; /* Image takes full width of the container */
-    height: fit-content; /* Maintain aspect ratio */
+.image-container img {
+  width: 98%;
+  height: fit-content;
+}
+.image-container h4{
+  margin-top: 10px;
+}
